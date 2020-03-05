@@ -1,0 +1,118 @@
+.sipButtonPad {
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.moveTextUp {
+  margin-top: -80px;
+}
+
+.moveBottleUp {
+  width: auto;
+  height: 75%;
+  display: inline-block;
+  margin-bottom: -30px;
+}
+
+.paddingThatArrow {
+	margin-right: 70px;
+}
+
+.borderingNav {
+	border-color: white;
+	border-width: 2px;
+}
+
+.thatPadding {
+	padding: 20px;
+}
+
+.friendBorder {
+  margin: none;
+  border: 1px solid #000000;
+  padding: 80px;
+}
+
+.friend-list {
+  height: 100%;
+  width: 100%;
+}
+
+.pot {
+  margin-top: 0px;
+  height: 80%;
+}
+
+.friendContainer {
+  text-align: center;
+  display: vertical;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 0%;
+  transition-duration: 0.4s;
+}
+
+.friendContainer h3:hover {
+  border: 5px solid #edf4fa;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border-radius: 25px;
+
+
+}
+
+.friendBorder {
+ text-align: center;
+ display: block;
+ margin-bottom: 30px;
+ border: solid #D5DFB9;
+ padding: -50px;
+
+}
+
+.plantContainer {
+ text-align: center;
+  display: vertical;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 70%;
+  transition-duration: 0.4s;
+
+}
+
+.plantSize {
+height: auto;
+width: 100%
+}
+
+#bottleStaySame {
+  height: 530px;
+  width: 450px;
+  overflow: hidden;
+}
+
+.sharedSize {
+display: inline-block;
+}
+
+
+.shelf {
+  position: relative;
+  vertical-align: middle;
+  padding-bottom: 40px;
+  padding-top: 30px;
+
+}
+
+.prize {
+  position: absolute;
+  left: 35;
+  top: -140;
+  width: 90px;
+}
+
+body{
+    overflow-x:hidden;
+}
