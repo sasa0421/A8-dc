@@ -82,9 +82,10 @@ text-align: center;
 }
 
 #bottleStaySame {
-  height: 530px;
-  width: 400px;
+  height: 495px;
+  width: 390px;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 #loginStaySame {
