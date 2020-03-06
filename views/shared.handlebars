@@ -12,33 +12,47 @@
 	<link href="/css/newCSS.css" rel="stylesheet">
 </head>
 <body>
-	<div class = "container">
-		<h2><i class="arrow leftArrow" onclick="history.back(-1)"></i>Shared Plant</h2>
-		<hr size="30">
+	<div class="text-center">
+	  	<div class="col">
+      		<h1>Your Plant with {{friendName}}</h1>
+      		<hr>
+    	</div>
 	
-	<div class = "plantContainer">
-	<h1>{{friendName}}</h1>
+	
+	<div class = "plantContainer sharedStaySame" id="sharedStaySame">
+	<img class= "img-responsive" src="/images/seed.png" ... />
+	</div>
 
-	<div class = "pot" style="width:100%">
-		<img class="sharedSize" src = "/images/seed.png">
-		
+<!--
+    <div class="sharedStaySame" id="sharedStaySame">
+      <img class= "img-responsive" src="/images/seed.png" ... />
+    </div>
+-->
+
+<!--
+
+	<div class = "plantStaySame" id="plantStaySame">
+		<img class="img-responsive" src = "/images/seed.png">
+	</div>
+-->
+
 		<div class = "row">
 			<div class = "col-md-6 col-sm-6 col-xs-6">
 				<h4>{{friendName}}:</h4>
 				<h5>{{friendScore}}/8</h5>
 			</div>
 			<div class = "col-md-6 col-sm-6 col-xs-6">
-				<h4>You:</h4>
+				<h4>Me:</h4>
 				<h5>{{userScore}}/8</h5>
 			</div>
 		</div>
-		 <a href="/archive"><button  class="btn btn-default">Past Plants</button></a>
+		 <a href="/archive"><button style="margin-top: 20px" class="btn button3">Past Plants</button></a>
 	</div>
 
 	  <nav class="borderingNav navbar navbar-default navbar-fixed-bottom" style="background: #D5DFB9">
       <div class = "row">
         
-          <a href="/sip"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">Sip</button></a>
+          <a href="/sip"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">My Progress</button></a>
           <a href="/friends"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">Friends</button></a>
   </nav>
 
