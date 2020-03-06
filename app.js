@@ -44,7 +44,6 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/sip', sip.view);
-app.get('/sipAlt', sip.viewAlt);
 app.get('/archive', archive.view);
 app.get('/friends', friends.view);
 app.get('/shared/:name', shared.viewProject);

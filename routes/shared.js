@@ -15,6 +15,5 @@ exports.viewProject = function(req, res){
 		"friendName": themName,
 		"friendScore": themScore,
 		"userScore": youScore,
-		"viewAlt": data.viewAlt
 	})
 }

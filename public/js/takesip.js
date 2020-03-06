@@ -11,7 +11,6 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("yes");
-	initializeInfo();
 	$.get('user', updateImage);
 }
 
@@ -23,13 +22,7 @@ function updateImage(result) {
 	var countNumber = result["growth"];
 	var projectHTML = "<img src='../images/Cup" + countNumber + ".png' style='width:40%' ... />";
 	$('.sip-tracker').html(projectHTML);
-}
-
-function initializeInfo() {
-	$('#infoForm').submit(function(e) {
-		e.preventDefault();
-		ga('create', 'UA-158765349-3', 'auto');
-		ga('send', 'event', 'help', 'click');
-		alert("Drink 8 cups of water a day to grow your plant! Each drink applies to every friend on your friend's list.");
-	});
+	if (result["countMax"] == true) {
+		alert("You've already reached your daily limit!");
+	}
 }
