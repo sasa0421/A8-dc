@@ -85,7 +85,7 @@ text-align: center;
   height: 495px;
   width: 390px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 
 #loginStaySame {
