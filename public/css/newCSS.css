@@ -84,8 +84,7 @@ text-align: center;
 #bottleStaySame {
   height: 495px;
   width: 390px;
-  overflow: hidden;
-  margin-bottom: -10px;
+  margin-bottom: 2px;
 }
 
 #loginStaySame {
